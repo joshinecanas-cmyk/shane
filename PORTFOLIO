@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joshine B. Cañas - Aspiring IT Professional and BSIT student.">
+    <title>Shane | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">shane<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects & Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="intro">HELLO, WELCOME TO MY PORTFOLIO!</p>
+
+            <h1>Hi, I'm <span>Joshine B. Cañas</span></h1>
+
+            <h2>Aspiring IT Professional</h2>
+
+            <p>
+                I am a third-year Information Technology student
+                who enjoys learning about technology, programming,
+                and creating solutions through innovation.
+            </p>
+
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+
+        <div class="profile-container">
+            <img src="images/profile.jpg"
+                 alt="Joshine B. Cañas profile picture"
+                 class="profile-img"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+            <div class="photo-placeholder">
+                Add Your Photo Here
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Hello! I'm Shane.</h3>
+
+                <p>
+                    I am currently a third-year Bachelor of Science
+                    in Information Technology student at Cavite State
+                    University – Bacoor City Campus.
+                </p>
+
+                <p>
+                    I enjoy learning about programming, web development,
+                    database management, and system development.
+                    I continuously improve my skills through academic
+                    activities and projects.
+                </p>
+
+                <p>
+                    Outside academics, I love playing volleyball.
+                    It helps me develop teamwork, discipline,
+                    and determination.
+                </p>
+            </div>
+
+            <div class="about-info">
+                <h3>Personal Information</h3>
+                <p><strong>Name:</strong> Joshine B. Cañas</p>
+                <p><strong>Nickname:</strong> Shane</p>
+                <p><strong>Course:</strong> BS Information Technology</p>
+                <p><strong>School:</strong> CvSU Bacoor Campus</p>
+                <p><strong>Year Level:</strong> 3rd Year</p>
+                <p><strong>Hobby:</strong> Playing Volleyball</p>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h3>My Technical Skills</h3>
+
+            <div class="skill-list">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">SQL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS AND CERTIFICATES -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <p>MY WORK</p>
+            <h2>Projects & <span>Certificates</span></h2>
+        </div>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <div class="project-icon">01</div>
+                <h3>KAIA-DENT</h3>
+                <p>
+                    An AI-Assisted Dental Clinic Management System
+                    designed to organize patient records, appointments,
+                    and clinic operations.
+                </p>
+                <small>System Development | Database | AI</small>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">02</div>
+                <h3>PWD Emergency GPS Bracelet</h3>
+                <p>
+                    A proposed emergency alert system that helps
+                    persons with disabilities send emergency
+                    notifications and location information.
+                </p>
+                <small>GPS | Emergency Technology</small>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">03</div>
+                <h3>Barangay Complaint Management System</h3>
+                <p>
+                    A desktop application that allows residents
+                    to submit complaints and monitor their status.
+                </p>
+                <small>Python | PyQt5 | SQLite</small>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">04</div>
+                <h3>Student Enrollment System</h3>
+                <p>
+                    A proposed system designed to organize
+                    student information and support enrollment
+                    management.
+                </p>
+                <small>System Design | Database</small>
+            </div>
+
+        </div>
+
+        <div class="certificates">
+            <h3>My Certificates</h3>
+            <p>My certificates and achievements will be displayed here.</p>
+
+            <div class="certificate-placeholder">
+                Certificate images coming soon.
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <p>LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <p class="contact-message">
+            Feel free to reach out! I would love to connect
+            and share ideas with you.
+        </p>
+
+        <div class="contact-info">
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:shanecanas@gmail.com">
+                    shanecanas@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>Facebook:</strong>
+                <a href="https://www.facebook.com/share/1FsZJyjhdx/?mibextid=wwXIfr"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit my Facebook
+                </a>
+            </p>
+
+            <p><strong>GitHub:</strong> Coming soon</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Joshine B. Cañas | All Rights Reserved.</p>
+        <p>Designed with care by Shane.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html> 
