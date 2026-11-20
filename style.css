@@ -429,6 +429,87 @@ footer {
     section {
         padding: 65px 7%;
     }
+    /* PROFILE PHOTO IMPROVEMENTS */
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* CERTIFICATES SECTION */
+.certificates {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.certificate-description {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #746459;
+}
+
+.certificate-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.certificate-card {
+    background: #fffaf4;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e8d9ca;
+    box-shadow: 0 5px 15px rgba(80, 50, 30, 0.08);
+    transition: 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(80, 50, 30, 0.12);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+}
+
+.certificate-card h3 {
+    font-family: Georgia, serif;
+    color: #76583f;
+    font-size: 19px;
+    margin: 18px 0 10px;
+}
+
+.certificate-card p {
+    color: #746459;
+    font-size: 14px;
+}
+
+.certificate-card span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #a77b59;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* MOBILE CERTIFICATES */
+@media (max-width: 768px) {
+    .certificate-container {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-card {
+        padding: 15px;
+    }
+}
+
 
     .contact-info {
         padding: 25px 18px;
